@@ -1,0 +1,22 @@
+2026-10-12 13:28:09 ERROR com.student.Calculator - Division by zero: a=10, b=0
+2026-10-12 13:34:41 INFO  com.student.Calculator - Calculator application started
+2026-10-12 13:34:41 ERROR com.student.Calculator - Division by zero: a=10, b=0
+2026-10-12 13:34:41 ERROR com.student.Calculator - Calculation failed
+java.lang.ArithmeticException: Cannot divide by zero
+	at com.student.Calculator.divide(Calculator.java:31) ~[classes/:?]
+	at com.student.Calculator.main(Calculator.java:50) ~[classes/:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:375) ~[?:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:364) ~[?:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:286) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2026-10-12 13:38:48 INFO  com.student.Calculator - Calculator application started
+2026-10-12 13:38:48 ERROR com.student.Calculator - Division by zero: a=10, b=0
+2026-10-12 13:38:48 ERROR com.student.Calculator - Calculation failed
+java.lang.ArithmeticException: Cannot divide by zero
+	at com.student.Calculator.divide(Calculator.java:31) ~[classes/:?]
+	at com.student.Calculator.main(Calculator.java:50) ~[classes/:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:375) ~[?:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:364) ~[?:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:286) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2026-10-12 13:39:19 ERROR com.student.Calculator - Division by zero: a=10, b=0
